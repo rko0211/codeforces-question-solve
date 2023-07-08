@@ -1,20 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool cmp(pair<int,pair<int,int>>p1, pair<int,pair<int,int>>p2){
-    if(p1.second.first>p2.second.first){
-        return true;
-    }
-    else if(p1.second.first==p2.second.first){
-        return p1.second.second < p2.second.second;
-    }
-    return false;
-
-}
+#define ll long long int
+class info{
+    public:
+    int score,time,idx;
+    info(int a,int b, int c){
+       score =a;
+       time = b;
+       idx =c;
+    };
+};
 void solve()
 {
     int n, m, h;
     cin >> n >> m >> h;
     int a[n][m];
+    vector<info>v;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -23,41 +24,36 @@ void solve()
         }
         sort(a[i], a[i]+m);
     }
-
-    int p[n][m];
-
     for(int i=0;i<n;i++){
-        p[i][0] = a[i][0];
-        for(int j=1;j<m;j++){
-
-            p[i][j]=(a[i][j]+p[i][j-1]);
+    ll score=0;
+    ll time =0;
+    ll pan =0;
+    for(int j=0;j<m;j++){
+        if(time+a[i][j]<=h){
+            time+=a[i][j];
+            pan+=time;
+            score++;
         }
     }
-    vector<pair<int,pair<int,int>>>vp;
-    for(int i=0;i<n;i++){
-        long long pan =0;
-        int win=0;
-        long long curr=0;
-        for(int j=0;j<m;j++){
-           if(curr+p[i][j]<=h){
-           pan+=p[i][j];
-            win++;
-           }
-     
-        }
-        vp.push_back({i,{win,pan}});
+    info newitm(score,pan,i);
+    v.emplace_back(newitm);
     }
-    sort(vp.begin(),vp.end(),cmp);
-    // for(int i=0;i<vp.size();i++){
-    //     cout<<vp[i].first<<" "<<vp[i].second.first<<" "<<vp[i].second.second<<endl;
-    // }
-    // cout<<endl;
-    for(int i=0;i<vp.size();i++){
-        if(vp[i].first==0){
+    sort(v.begin(),v.end(),[](info &a, info& b){
+        if(a.score==b.score){
+            if(a.time==b.time){
+                return a.idx<b.idx;
+            }
+            return a.time<b.time;
+        }
+        return a.score>b.score;
+    });
+    for(int i=0;i<n;i++){
+        if(v[i].idx==0){
             cout<<(i+1)<<endl;
             return;
         }
     }
+
 }
 int main()
 {

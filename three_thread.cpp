@@ -6,46 +6,11 @@ void solve()
     cin >> a >> b >> c;
     int mini = min({a, b, c});
     int cnt = 0;
-    if (a != mini)
-    {
-        while (a != mini)
-        {
-            if (a < 0)
-            {
-                cout << "NO\n";
-                return;
-            }
-            a -= mini;
-            cnt++;
-        }
+    if(a%mini!=0 || b%mini!=0 || c%mini!=0){
+        cout<<"NO\n";
+        return;
     }
-    if (b != mini)
-    {
-        while (b != mini)
-        {
-            if (b < 0)
-            {
-                cout << "NO\n";
-                return;
-            }
-            b -= mini;
-            cnt++;
-        }
-    }
-
-    if (c != mini)
-    {
-        while (c != mini)
-        {
-            if (c < 0)
-            {
-                cout << "NO\n";
-                return;
-            }
-            c -= mini;
-            cnt++;
-        }
-    }
+   cnt+=((a/mini - 1)+(b/mini -1) +(c/mini -1));
     // cout<<cnt<<endl;
     if (cnt <= 3)
     {

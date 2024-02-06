@@ -1,34 +1,36 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+void solve()
+{
+  int n;
+  cin >> n;
+  string s;
+  cin >> s;
+  int ans = 0;
+  int first = -1;
+  int last;
 
-
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
-    int n,m;
-    cin>>n>>m;
-    int arr[n], queries[m];
-    for(int i=0;i<n;i++) cin>>arr[i];
-
-    for(int i=0;i<m;i++) cin>>queries[i];
-     int ans[m];
-     int k =0;
-     for(int i=0;i<m;i++){
-         int idx = queries[i];
-         int minval =INT_MAX;
-         
-         for(int j=0;j<=idx && idx<n;j++){
-           minval = min(minval,arr[j]);
-         }
-         ans[k]= minval;
-         k++;
-     }
-     for(int i=0;i<m;i++){
-         cout<<ans[i]<<" ";
-     }
-    return 0;
+  for (int i = 0; i < n; i++)
+  {
+    if (s[i] == 'B' && first == -1)
+    {
+      first = i;
+      last = i;
+    }
+    else if (s[i] == 'B')
+    {
+      last = i;
+    }
+  }
+  cout << (last - first) + 1 << endl;
+}
+int main()
+{
+  int t;
+  cin >> t;
+  while (t--)
+  {
+    solve();
+  }
+  return 0;
 }

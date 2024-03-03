@@ -49,19 +49,22 @@ void solve()
     }
     if (s2[i2] == '1' && s1[i1] == '0')
     {
-      // ans = max(ans, cnt);
+      ans = cnt;
       cnt = 1;
     }
-    // else
-    // {
-    //   cnt = 1;
-    // }
+    else if (s2[i2] == '0' && s1[i1] == '1')
+    {
+      ans = cnt;
+      break;
+      // cnt = 1;
+    }
+
     i1++;
     i2++;
   }
-  ans = max(ans, cnt);
+  ans = cnt;
   cout << short_path << endl;
-  cout << cnt << endl;
+  cout << ans << endl;
 }
 int main()
 {

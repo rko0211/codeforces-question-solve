@@ -1,0 +1,1 @@
+{"name":"Local: klee_super","url":"/home/prakash/Desktop/Striver CP sheet/klee_super.cpp","tests":[{"id":1725377194101,"input":"4\n2 2\n7 2\n5 3\n1000000000 1000000000\n","output":"1\n5\n1\n347369930\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/klee_super.cpp","group":"local","local":true}

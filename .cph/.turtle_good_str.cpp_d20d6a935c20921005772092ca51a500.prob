@@ -1,0 +1,1 @@
+{"name":"Local: turtle_good_str","url":"/home/prakash/Desktop/Striver CP sheet/turtle_good_str.cpp","tests":[{"id":1724663170587,"input":"4\n2\naa\n3\naba\n4\nabcb\n12\nabcabcabcabc\n","output":"No\nnO\nYes\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/turtle_good_str.cpp","group":"local","local":true}

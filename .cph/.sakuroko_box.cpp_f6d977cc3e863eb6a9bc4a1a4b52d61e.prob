@@ -1,0 +1,1 @@
+{"name":"Local: sakuroko_box","url":"/home/prakash/Desktop/Striver CP sheet/sakuroko_box.cpp","tests":[{"id":1725213808492,"input":"3\n3\n3 2 3\n4\n2 2 2 4\n5\n1 2 3 4 5\n","output":"7\n6\n500000012\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/sakuroko_box.cpp","group":"local","local":true}

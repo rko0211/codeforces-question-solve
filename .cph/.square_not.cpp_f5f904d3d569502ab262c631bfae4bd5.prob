@@ -1,0 +1,1 @@
+{"name":"Local: square_not","url":"/home/prakash/Desktop/Striver CP sheet/square_not.cpp","tests":[{"id":1725203836607,"input":"5\n2\n11\n4\n1111\n9\n111101111\n9\n111111111\n12\n111110011111\n","output":"No\nYes\nYes\nNo\nNo\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/square_not.cpp","group":"local","local":true}

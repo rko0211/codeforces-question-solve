@@ -1,0 +1,1 @@
+{"name":"Local: k_point","url":"/home/prakash/Desktop/Striver CP sheet/k_point.cpp","tests":[{"id":1723301436803,"input":"4\n10 10 1\n0 0 3\n-5 -8 8\n4 -5 3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/k_point.cpp","group":"local","local":true}

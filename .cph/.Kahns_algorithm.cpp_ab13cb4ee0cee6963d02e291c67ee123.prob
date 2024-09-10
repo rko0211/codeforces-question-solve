@@ -1,0 +1,1 @@
+{"name":"Local: Kahns_algorithm","url":"/home/prakash/Desktop/Striver CP sheet/Kahns_algorithm.cpp","tests":[{"id":1721399788322,"input":"6 7\n0 5\n4 0\n5 2\n4 1\n2 0\n2 3\n3 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/Kahns_algorithm.cpp","group":"local","local":true}

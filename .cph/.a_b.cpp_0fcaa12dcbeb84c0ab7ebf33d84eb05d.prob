@@ -1,0 +1,1 @@
+{"name":"Local: a_b","url":"/home/prakash/Desktop/Striver CP sheet/a_b.cpp","tests":[{"id":1722955323684,"input":"8\n77\n21\n40\n34\n19\n84\n10\n99\n","output":"14\n3\n4\n7\n10\n12\n1\n18\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/a_b.cpp","group":"local","local":true}

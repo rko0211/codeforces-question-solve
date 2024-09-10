@@ -1,0 +1,1 @@
+{"name":"Local: frog_jump","url":"/home/prakash/Desktop/Striver CP sheet/frog_jump.cpp","tests":[{"id":1721225237077,"input":"6\nLRLRRLL\nL\nLLR\nRRRR\nLLLLLL\nR\n","output":"3\n2\n3\n1\n7\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/frog_jump.cpp","group":"local","local":true}

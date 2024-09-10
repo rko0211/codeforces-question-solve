@@ -1,0 +1,1 @@
+{"name":"Local: fact_power_2","url":"/home/prakash/Desktop/Striver CP sheet/fact_power_2.cpp","tests":[{"id":1722231356701,"input":"4\n7\n11\n240\n17179869184\n","output":"2\n3\n4\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/fact_power_2.cpp","group":"local","local":true}

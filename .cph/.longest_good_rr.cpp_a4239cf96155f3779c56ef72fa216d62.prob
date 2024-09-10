@@ -1,0 +1,1 @@
+{"name":"Local: longest_good_rr","url":"/home/prakash/Desktop/Striver CP sheet/longest_good_rr.cpp","tests":[{"id":1725204367417,"input":"5\n1 2\n1 5\n2 2\n10 20\n1 1000000000\n","output":"2\n3\n1\n5\n44721\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/longest_good_rr.cpp","group":"local","local":true}

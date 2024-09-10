@@ -1,0 +1,1 @@
+{"name":"Local: minimiz","url":"/home/prakash/Desktop/Striver CP sheet/minimiz.cpp","tests":[{"id":1725374255218,"input":"3\n1 2\n3 10\n5 5\n","output":"1\n7\n0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/minimiz.cpp","group":"local","local":true}

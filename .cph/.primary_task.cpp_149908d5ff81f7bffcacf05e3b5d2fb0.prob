@@ -1,0 +1,1 @@
+{"name":"Local: primary_task","url":"/home/prakash/Desktop/Striver CP sheet/primary_task.cpp","tests":[{"id":1724416362397,"input":"7\n100\n1010\n101\n105\n2033\n1019\n1002\n","output":"NO\nYES\nNO\nYES\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/primary_task.cpp","group":"local","local":true}

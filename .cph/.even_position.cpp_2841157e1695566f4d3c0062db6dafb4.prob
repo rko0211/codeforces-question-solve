@@ -1,0 +1,1 @@
+{"name":"Local: even_position","url":"/home/prakash/Desktop/Striver CP sheet/even_position.cpp","tests":[{"id":1722355135817,"input":"4\n6\n_(_)_)\n2\n_)\n8\n_)_)_)_)\n8\n_(_)_(_)\n","output":"5\n1\n4\n8\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prakash/Desktop/Striver CP sheet/even_position.cpp","group":"local","local":true}
